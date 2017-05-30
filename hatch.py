@@ -7,7 +7,7 @@ currentYear = int(now.strftime("%Y"))
 k = 30 #hatches per sqkm
 p_d = 40000 #max population density
 
-def inputNumber(msg): #метод проверяет введено ли число и положительно ли оно 
+def inputNumber(msg): #проверяет введено ли число и положительно ли оно 
 	flag = False
 	res = 0
 	while (not flag):
